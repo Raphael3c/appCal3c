@@ -4,7 +4,7 @@ import Calc from './features/calc'
 
 import "./index.css"
 
-const title = "Calc"
+const title = process.env.REACT_APP_TITLE
 
 ReactDOM.render(
   
