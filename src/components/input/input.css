@@ -1,0 +1,60 @@
+.input{
+
+  font-size: 3.125rem;
+  text-align: center;
+
+  background-color: #B2BDFB;
+  
+  border: none;
+  border-radius: 4px;
+
+  color: white;
+
+  height: 5rem;
+  width: 15.625rem;
+  outline: none;
+}
+
+.input:focus{
+  outline: 2px solid #4E9EB2;
+}
+
+@media(max-width: 768px){
+  .input{
+    height: 4.85rem;
+    width: 10.625rem;
+    font-size: 2.425rem;
+  }  
+}
+
+@media(max-width: 597px){
+  .input{
+    height: 4.85rem;
+    width: 9.625rem;
+    font-size: 2.425rem;
+  }  
+}
+
+@media(max-width: 576px){ 
+  .input{
+    height: 3rem;
+    width: 9rem;
+    font-size: 1.425rem;
+  }  
+}
+
+@media(max-width: 375px){ 
+    .input{
+      height: 3rem;
+      width: 8.75rem;
+      font-size: 1.425rem;
+    }  
+}
+
+@media(max-width: 320px){
+  .input{
+    height: 3rem;
+    width: 8.5rem;
+    font-size: 1.825rem;
+  }
+}

@@ -1,0 +1,53 @@
+.containerButton{
+  margin-top: 15px;
+}
+
+.containerButton button{
+  padding: 0.5rem 5rem;
+  font-size: 3.125rem;
+
+  background-color: #1F53E5;
+  border: none;
+  color: white;
+
+  border-radius: 12px 35px 12px 35px;
+}
+
+.containerButton button:hover{
+  cursor: pointer;
+}
+
+@media(max-width: 768px){
+  .containerButton button{
+    padding: 0.5rem 5rem;
+    font-size: 2.825rem;
+  }
+}
+
+@media(max-width: 576px){
+  .containerButton button{
+    padding: 0.5rem 5rem;
+    font-size: 2.525rem;
+  }
+}
+
+@media(max-width: 425px){
+  .containerButton button{
+    padding: 0.5rem 5rem;
+    font-size: 2.25rem;
+  }
+}
+
+@media(max-width: 375px){
+  .containerButton button{
+    padding: 0.5rem 5rem;
+    font-size: 2.125rem;
+  }
+}
+
+@media(max-width: 320px){
+  .containerButton button{
+    padding: 0.5rem 5rem;
+    font-size: 2.125rem;
+  }
+}

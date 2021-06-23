@@ -1,0 +1,132 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Calc{
+  background-color: #152266;
+
+  width: 48.625rem;
+  height: 28.125rem;;
+
+  color: white;
+
+  font-family: sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Calc h2{
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 1.875rem;
+}
+
+.Calc .containerInput{
+  width: 70%;
+  margin-top: 30px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.Calc #result{  
+  font-size: 3.125rem;
+  margin-top: 50px;
+}
+
+@media(max-width: 768px){
+  .Calc h2{
+    font-size: 1.475rem;
+  }
+
+  .Calc{
+    width: 98%;
+  }
+
+  .Calc .containerInput{
+    width: 60%;
+  }
+
+  .Calc #result{
+    font-size: 2.725rem;
+  }
+}
+
+@media(max-width: 576px){
+  .Calc h2{
+    font-size: 1.5rem;
+  }
+
+  .Calc{
+    width: 98%;
+  }
+
+  .Calc .containerInput{
+    width: 76%;
+  }
+
+  .Calc #result{
+    font-size: 1.9rem;
+  }
+}
+
+@media(max-width: 425px){
+  .Calc h2{
+    font-size: 1.5rem;
+  }
+
+  .Calc{
+    width: 98%;
+  }
+
+  .Calc .containerInput{
+    width: 85%;
+  }
+
+  .Calc #result{
+    font-size: 1.9rem;
+  }
+}
+
+@media(max-width: 375px){
+  .Calc h2{
+    font-size: 1.5rem;
+  }
+
+  .Calc{
+    width: 98%;
+  }
+
+  .Calc .containerInput{
+    width: 95%;
+  }
+
+  .Calc #result{
+    font-size: 1.9rem;
+  }
+}
+
+@media(max-width: 320px){
+  .Calc h2{
+    font-size: 1.5rem;
+  }
+
+  .Calc{
+    width: 98%;
+  }
+
+  .Calc .containerInput{
+    width: 95%;
+  }
+
+  .Calc #result{
+    font-size: 1.8rem;
+  }
+}
